@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.png'; // ← logo.pngは srcフォルダ直下にある前提
+import logo from './assets/logo.png'; // ← assetsフォルダから読み込みに変更！
 
 function App() {
   return (
