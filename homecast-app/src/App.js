@@ -1,7 +1,5 @@
-// キャッシュクリア用のコメント（再ビルドトリガー）
-
 import React from 'react';
-import logo from './assets/logo.png'; // ← assetsフォルダから読み込み
+import logo from './assets/logo.png'; // ✅ 正しいパスに修正！
 
 function App() {
   return (
