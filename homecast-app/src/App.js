@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import logo from './assets/logo.png';
+import logo from './logo.png'; // ← 修正したのはここだけ！
 
 function App() {
   return (
