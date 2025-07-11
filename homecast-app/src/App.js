@@ -1,5 +1,7 @@
+// キャッシュクリア用のコメント（再ビルドトリガー）
+
 import React from 'react';
-import logo from './assets/logo.png'; // ← assetsフォルダから読み込みに変更！
+import logo from './assets/logo.png'; // ← assetsフォルダから読み込み
 
 function App() {
   return (
