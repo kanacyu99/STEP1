@@ -1,19 +1,14 @@
+// src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Step1Form from './Step1Form';
-import Confirmation from './Confirmation';
-import './App.css';
+import logo from './assets/logo.png';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Step1Form />} />
-          <Route path="/confirmation" element={<Confirmation />} />
-        </Routes>
-      </div>
-    </Router>
+    <div style={{ textAlign: 'center', padding: '2rem', fontFamily: 'sans-serif' }}>
+      <img src={logo} alt="ほめキャス ロゴ" style={{ width: '150px', marginBottom: '1rem' }} />
+      <h1>ほめキャスへようこそ！</h1>
+      <p>動画づくりのSTEPを1つずつ進めていこう！</p>
+    </div>
   );
 }
 
